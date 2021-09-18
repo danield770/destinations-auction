@@ -1,0 +1,22 @@
+{
+  "files": {
+    "main.css": "/destinations-auction/static/css/main.e5d8ea01.chunk.css",
+    "main.js": "/destinations-auction/static/js/main.e7bf1807.chunk.js",
+    "main.js.map": "/destinations-auction/static/js/main.e7bf1807.chunk.js.map",
+    "runtime-main.js": "/destinations-auction/static/js/runtime-main.d3d8bb85.js",
+    "runtime-main.js.map": "/destinations-auction/static/js/runtime-main.d3d8bb85.js.map",
+    "static/js/2.6092779a.chunk.js": "/destinations-auction/static/js/2.6092779a.chunk.js",
+    "static/js/2.6092779a.chunk.js.map": "/destinations-auction/static/js/2.6092779a.chunk.js.map",
+    "static/js/3.89f638bc.chunk.js": "/destinations-auction/static/js/3.89f638bc.chunk.js",
+    "static/js/3.89f638bc.chunk.js.map": "/destinations-auction/static/js/3.89f638bc.chunk.js.map",
+    "index.html": "/destinations-auction/index.html",
+    "static/css/main.e5d8ea01.chunk.css.map": "/destinations-auction/static/css/main.e5d8ea01.chunk.css.map",
+    "static/js/2.6092779a.chunk.js.LICENSE.txt": "/destinations-auction/static/js/2.6092779a.chunk.js.LICENSE.txt"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.d3d8bb85.js",
+    "static/js/2.6092779a.chunk.js",
+    "static/css/main.e5d8ea01.chunk.css",
+    "static/js/main.e7bf1807.chunk.js"
+  ]
+}
