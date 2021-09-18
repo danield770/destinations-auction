@@ -1,3 +1,23 @@
+
+# Assignment Notes
+
+1) The app is responsive, so be sure to resize to various widths
+
+2) The app is easily themable by simply altering the hue custom property in the developer tools (see screen shot) 
+![Screen Shot 2021-09-19 at 2 03 32](https://user-images.githubusercontent.com/4352617/133910684-15ce2cee-b851-4995-8eba-3281a1e135c1.png)
+
+Of course, in a real app, there would be the appropriate UI for the user to choose the theme
+
+3) Regarding lazy loading of the images: 
+
+I have added the loading='lazy' native property (see [MDN](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/img#attr-loading)) which has pretty good browser support (see [caniuse](https://caniuse.com/loading-lazy-attr))
+
+If I had more time, I could add support for older browsers by initally adding a data-src attribute to the images instead of a src attribute. 
+ - An intersection Observer is attached to all the images to be lazy loaded.
+ - Once the Intersection Observer API detects that the element has entered the viewport, using the isIntersecting property, move the data-src attribute to the src attribute for the browser to trigger the image load.
+ - Once this is done, remove the observer from that image.
+
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
