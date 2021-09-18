@@ -4,9 +4,10 @@
 1) The app is responsive, so be sure to resize to various widths
 
 2) The app is easily themable by simply altering the hue custom property in the developer tools (see screen shot) 
-![Screen Shot 2021-09-19 at 2 03 32](https://user-images.githubusercontent.com/4352617/133910684-15ce2cee-b851-4995-8eba-3281a1e135c1.png)
 
-Of course, in a real app, there would be the appropriate UI for the user to choose the theme
+   ![Screen Shot 2021-09-19 at 2 20 36](https://user-images.githubusercontent.com/4352617/133910945-58c0104a-e082-438c-bf79-ea733e18e113.png)
+
+   Of course, in a real app, there would be the appropriate UI for the user to choose the theme
 
 3) Regarding lazy loading of the images: 
 
