@@ -1,15 +1,20 @@
 
 # Assignment Notes
 
-1) The app is responsive, so be sure to resize to various widths
+1) The app deployed on github pages at: https://danield770.github.io/destinations-auction/
 
-2) The app is easily themable by simply altering the hue custom property in the developer tools (see screen shot) 
+2) The app is responsive with 3 breakpoint layouts, so be sure to resize to various widths
+
+3) The app is easily themable by simply altering the hue custom property in the developer tools (see screen shot) 
 
    ![Screen Shot 2021-09-19 at 2 20 36](https://user-images.githubusercontent.com/4352617/133910945-58c0104a-e082-438c-bf79-ea733e18e113.png)
 
    Of course, in a real app, there would be the appropriate UI for the user to choose the theme
+   
+4) Regarding CORS: I avoided the “No Access-Control-Allow-Origin header” by making the request through a CORS proxy (as documented [here](https://stackoverflow.com/a/43881141/703717))
+   Of course, in a real project, I would make the request via the app's server side.
 
-3) Regarding lazy loading of the images: 
+5) Regarding lazy loading of the images: 
 
 I have added the loading='lazy' native property (see [MDN](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/img#attr-loading)) which has pretty good browser support (see [caniuse](https://caniuse.com/loading-lazy-attr))
 
