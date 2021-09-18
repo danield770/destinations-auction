@@ -2,7 +2,7 @@ import useFetch from '../hooks/useFetch';
 
 function Auctions() {
   const { data, isLoading } = useFetch(
-    'https://static.bidflyer.com.s3.amazonaws.com/promotional/test.json'
+    'https://desolate-ridge-21792.herokuapp.com/http://static.bidflyer.com.s3.amazonaws.com/promotional/test.json'
   );
   console.log('Auctions component...');
 
